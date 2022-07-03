@@ -11,6 +11,9 @@ main{
 }
 figure{
     display: flex;
+    align-items: center;
+    width: 40vw;
+    height: 80vh;
 }
 img{
     height: 60vh;
