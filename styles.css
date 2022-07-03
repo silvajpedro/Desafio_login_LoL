@@ -9,6 +9,9 @@ main{
     justify-content: center;
     width: 100%;
 }
+figure{
+    display: flex;
+}
 img{
     height: 60vh;
 }
