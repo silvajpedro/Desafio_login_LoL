@@ -15,8 +15,7 @@ main,.firstSec,form,div,div a,.secondDiv {
     height: 90vh;
     justify-content: center;
 }
-.firstSec figure img,
-button {
+.firstSec figure img, button {
     position: relative;
     top: -4vh;
     height: 8vh;
@@ -195,4 +194,7 @@ button img {
 }
 .secondSec img {
     width: 72vw;
+}
+.responsiveFilter{
+    display: none;
 }
