@@ -7,22 +7,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-main,
-.firstSec,
-form,
-div,
-div a,
-.secondDiv {
+main,.firstSec,form,div,div a,.secondDiv {
     display: flex;
 }
-
 .firstSec {
     width: 29vw;
     height: 90vh;
     justify-content: center;
 }
-
 .firstSec figure img,
 button {
     position: relative;
@@ -30,12 +22,10 @@ button {
     height: 8vh;
 }
 
-.firstSec,
-form {
+.firstSec,form {
     flex-direction: column;
     align-items: center;
 }
-
 form {
     position: relative;
     height: 26.5vh;
@@ -43,15 +33,12 @@ form {
     justify-content: space-evenly;
     padding-top: 10px;
 }
-
-form h1,
-.secondDiv {
+form h1,.secondDiv {
     position: relative;
     top: -0.5vh;
     font-size: 15.5px;
     font-family: "Inter", sans-serif;
 }
-
 .passwordBox {
     display: flex;
     justify-content: flex-start;
@@ -63,7 +50,6 @@ form h1,
     border-radius: 10px;
     background-color: #E8E6E6;
 }
-
 .passwordBar {
     position: relative;
     top: .5vh;
@@ -73,7 +59,6 @@ form h1,
     width: 0%;
     transition: ease-in-out 1s;
 }
-
 p {
     position: relative;
     left: -8.8vw;
@@ -82,7 +67,6 @@ p {
     font-size: 14px;
     font-weight: 700;
 }
-
 /* chamei no javascript */
 .passwordWeak {
     background-color: rgb(243, 9, 9);
@@ -98,7 +82,6 @@ p {
     background-color: rgb(6, 238, 33);
     width: 98.5%;
 }
-
 /* fim */
 form input {
     width: 21vw;
@@ -108,9 +91,7 @@ form input {
     border: none;
     background-color: #E8E6E6;
 }
-
-.nameLabel,
-.passwordLabel {
+.nameLabel,.passwordLabel {
     position: relative;
     top: -8vh;
     left: -6.7vw;
@@ -119,12 +100,10 @@ form input {
     font-weight: 500;
     color: #716E6E;
 }
-
 .passwordLabel {
     top: -8vh;
     left: -8.8vw;
 }
-
 div {
     position: relative;
     top: 4vh;
@@ -132,7 +111,6 @@ div {
     height: 6vh;
     justify-content: space-evenly;
 }
-
 div a {
     justify-content: center;
     align-items: center;
@@ -141,32 +119,25 @@ div a {
     border-radius: 5px;
     transition: ease-in-out 0.8s;
 }
-
 div a:hover {
     transform: scale(120%);
 }
-
 div a:hover img {
     transform: rotate(360deg);
 }
-
 div a img {
     height: 3.1vh;
     transition: ease-in-out 0.8s;
 }
-
 .facebooklink {
     background-color: #2051FF;
 }
-
 .googlelink {
     background-color: #8A0000;
 }
-
 .applelink {
     background-color: #000000;
 }
-
 .secondDiv {
     border: solid transparent;
     top: 6vh;
@@ -175,11 +146,9 @@ div a img {
     font-weight: 900;
     left: -5.8vw;
 }
-
 .secondDiv label {
     padding-right: 10px;
 }
-
 button {
     top: 17.5vh;
     height: 7.5vh;
@@ -188,7 +157,6 @@ button {
     background-color: transparent;
     border: none;
 }
-
 button img {
     background-color: #FF002E;
     opacity: 0.5;
@@ -197,7 +165,6 @@ button img {
     height: 7vh;
     transition: ease-in-out 0.7s;
 }
-
 .grown {
     transform: scale(130%);
     opacity: 1;
@@ -208,7 +175,6 @@ button img {
     /* não fiz a outra animação em linha passando em volta do botão
     porque esse botão tem curvas ai pra fazer essas curvas só quem e mestre */
 }
-
 @keyframes glow {
     0% {
         background-position: 0%;
@@ -218,9 +184,7 @@ button img {
         background-position: 420%;
     }
 }
-
-.otherLink,
-.anotherLink {
+.otherLink,.anotherLink {
     position: relative;
     top: 21vh;
     height: 3.5vh;
@@ -229,7 +193,6 @@ button img {
     font-family: "Inter", sans-serif;
     font-size: 12px;
 }
-
 .secondSec img {
     width: 72vw;
 }
