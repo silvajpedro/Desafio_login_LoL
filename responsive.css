@@ -1,126 +1,54 @@
 @media (max-width:1024px) {
     .firstSec {
-        width: 29vw;
         height: 85vh;
     }
-
-    form {
-        height: 26.5vh;
-        width: 100%;
-        justify-content: space-evenly;
-        padding-top: 10px;
+    form h1,.secondDiv {
+        font-size: 13px;
     }
-
-    form h1,
-    .secondDiv {
-        top: -0.5vh;
-        font-size: 15.5px;
-        font-family: "Inter", sans-serif;
-    }
-
-    .passwordBox {
-        justify-content: flex-start;
-        padding-left: 4px;
-        top: 0;
-        width: 75%;
-        height: 2vh;
-        border-radius: 10px;
-        background-color: #E8E6E6;
-    }
-
-    .passwordBar {
-        top: .5vh;
-        left: 0vw;
-        border-radius: 10px;
-        height: 1vh;
-        width: 0%;
-        transition: ease-in-out 1s;
-    }
-
     p {
-        left: -8.8vw;
-        top: 1vh;
-        font-family: "Inter", sans-serif;
-        font-size: 14px;
-        font-weight: 700;
+        font-size: 12px;
     }
-
     /* chamei no javascript */
     .passwordWeak {
         background-color: rgb(243, 9, 9);
         width: 32%;
     }
-
     .passwordMedium {
         background-color: rgb(255, 174, 0);
         width: 62%;
     }
-
     .passwordStrong {
         background-color: rgb(6, 238, 33);
         width: 98.5%;
     }
-
     /* fim */
     form input {
-        width: 21vw;
-        height: 8.5vh;
-        padding-left: 10px;
-        border-radius: 5px;
-        border: none;
-        background-color: #E8E6E6;
+        padding-top: 8px;
     }
-
-    .nameLabel,
-    .passwordLabel {
+    .nameLabel,.passwordLabel {
         top: -7.2vh;
         left: -6vw;
-        font-size: 9px;
+        font-size: 8.5px;
     }
-
     .passwordLabel {
-        top: -7.2vh;
         left: -8.5vw;
     }
-
     .secondDiv {
-        top: 6vh;
         width: 15vw;
         height: 5vh;
-        font-weight: 900;
-        left: -5.8vw;
-    }
-
-    .secondDiv label {
-        padding-right: 10px;
-    }
-
-    button {
-        top: 16vh;
-        height: 7.5vh;
-        width: 3.5vw;
-        border-radius: 10px;
-        background-color: transparent;
-        border: none;
-    }
-
-    button img {
-        background-color: #FF002E;
-        opacity: 0.5;
-        border-radius: 10px;
-        padding: 10%;
-        height: 7vh;
-        transition: ease-in-out 0.7s;
-    }
-
-    .otherLink,
-    .anotherLink {
-        top: 19vh;
+    } 
+    .otherLink,.anotherLink {
+        top:21vh;
         height: 3.5vh;
-        text-decoration: none;
-        color: #A6A6A6;
-        font-family: "Inter", sans-serif;
-        font-size: 12px;
+        font-size: 11px;
+    }
+    .anotherLink{
+        padding-top: 2px;
     }
 
+}
+@media (max-width:600px){
+    body{
+       
+    }
 }
