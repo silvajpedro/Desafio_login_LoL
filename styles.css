@@ -1,20 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-main{
+main,.firstSec,form,div, div a, .secondDiv{
     display: flex;
-    align-items: center;
+}
+.firstSec{
+    width: 29vw;
+    height: 90vh;
     justify-content: center;
-    width: 100%;
 }
-figure{
-    display: flex;
+.firstSec figure img, button{
+    position: relative;
+    top: -4vh;
+    height: 8vh;
+}
+.firstSec,form{
+    flex-direction: column;
     align-items: center;
-    width: 40vw;
-    height: 80vh;
 }
-img{
-    height: 60vh;
+form{
+    position: relative;
+    height: 26.5vh;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+form h1 , .secondDiv{
+    position: relative;
+    top: -0.5vh;
+    font-size: 15.5px;
+    font-family: "Inter", sans-serif;
+}
+.passwordBox{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 4px;
+    position: relative;
+    top: 0;
+    width: 75%;
+    height: 2vh;
+    border-radius: 10px;
+    background-color: #E8E6E6;
+}
+.passwordBar{
+    position: relative;
+    top: .5vh;
+    left: 0vw;
+    border-radius: 10px;
+    height: 1vh;
+    width: 0%;
+    transition: ease-in-out 1s;
+}
+p{
+    position: relative;
+    left: -8.8vw;
+    top: 1vh;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* chamei no javascript  32,62, 98 */
+.passwordWeak{
+  background-color: rgb(243, 9, 9);
+  width: 32%;
+}
+.passwordMedium{
+    background-color: rgb(255, 174, 0);
+    width: 62%;
+}
+.passwordStrong{
+    background-color: rgb(6, 238, 33);
+    width: 98.5%;
+}
+
+/* fim */
+form input{
+    width: 21vw;
+    height: 8.5vh;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:#E8E6E6;
+}
+.nameLabel{
+    position: relative;
+    top: -8.3vh;
+    left: -6.7vw;
+    font-size: 11px;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    color: #716E6E;
+}
+.passwordLabel{
+    position: relative;
+    top: -8.3vh;
+    left: -6.7vw;
+    font-size: 11px;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    color: #716E6E;
+}
+div{
+    position: relative;
+    top: 4vh;
+    width: 90%;
+    height: 6vh;
+    justify-content: space-evenly;
+}
+div a {
+    justify-content: center;
+    align-items: center;
+    width: 5.5vw;
+    height: 5vh;
+    border-radius: 5px;
+    transition: ease-in-out 0.8s;
+}
+div a:hover{
+    transform: scale(120%);
+}
+div a:hover img{
+    transform: rotate(360deg);
+}
+div a img{
+    height: 3.1vh;
+    transition: ease-in-out 0.8s;
+}
+.facebooklink{
+    background-color: #2051FF;
+}
+.googlelink{
+    background-color: #8A0000;
+}
+.applelink{
+    background-color:#000000 ;
+}
+.secondDiv{
+    border: solid transparent;
+    top: 6vh;
+    width: 10vw;
+    height: 3.8vh;
+    font-weight: 900;
+    left:-5.8vw;
+}
+.secondDiv label{
+    padding-right: 10px;
+}
+button{
+    top: 17.5vh;
+    height: 7.5vh;
+    width: 3.5vw;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+}
+button img{
+    background-color: #FF002E;
+    opacity: 0.5;
+    border-radius: 10px;
+    padding: 10%;
+    height: 7vh;
+    transition: ease-in-out 0.7s;
+}
+.grown{
+    transform: scale(130%);
+    opacity: 1;
+    box-shadow: 0px 0px 20px 3px  #FF002E;
+    background: linear-gradient(90deg, #FF002E, rgb(218, 5, 5), rgb(203, 20, 20));
+    animation: glow 3s linear 0s infinite normal none;
+    background-size: 420%;
+}
+@keyframes glow{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 420%;
+    }
+}
+.otherLink, .anotherLink{
+    position: relative;
+    top: 21vh;
+    height: 3.5vh;
+    text-decoration: none;
+    color: #A6A6A6;
+    font-family: "Inter",sans-serif;
+    font-size: 12px;
+}
+.secondSec img{
+    width: 72vw;
 }

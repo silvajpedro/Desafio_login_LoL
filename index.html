@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,46 @@
     <title>Página de Loging</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
+
 <body>
-    <header></header>
     <main>
-        <figure>
-            <img src="./img/construcao-legal.gif" alt="">
-        </figure>
-        <figure>
-           <img src="./img/d66770_e819f6719ce743f6b1b4829bb95a6df8_mv2.gif" alt="">
-        </figure>
+        <section class="firstSec">
+            <figure>
+                <img src="./img/7ca90d91042722264fb9c32722129b34.png" alt="Riot Games Logo vermelha">
+            </figure>
+            <form>
+                <h1>Fazer login</h1>
+                <input type="text" name="username" id="username">
+                <label class="nameLabel" for="username">Nome de Usuário</label>
+                <input type="password" name="user_password" id="user_password">
+                <label class="passwordLabel" for="user_password">Senha</label>
+            </form>
+            <div class="passwordBox">
+                <div class="passwordBar"></div>
+            </div>
+            <p>Senha</p>
+            <div>
+                <a class="facebooklink" href="https://www.facebook.com/" target="_blank"><img
+                        src="./img/2c40b987a47cbd18d952c9440f6b4827.png" alt="facebook imagem link"></a>
+                <a class="googlelink"
+                    href="https://accounts.google.com/signin/v2/identifier?hl=pt-br&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                    target="_blank"><img src="./img/f157c0925550d039b42b415d2d232874.png" alt="google image link"></a>
+                <a class="applelink" href="https://appleid.apple.com/" target="_blank"><img
+                        src="./img/247ab84a0c3e0a173d6b9810c942a34d.png" alt="apple imagem link"></a>
+            </div>
+            <div class="secondDiv">
+                <input type="checkbox" name="online">
+                <label for="online">Manter login</label>
+            </div>
+            <button><img src="./img/67c63a89bcf8a5444f96139200e971c7.png" alt="seta"></button>
+            <a class="otherLink" href="https://recovery.riotgames.com/en?region=BR1">Não consegue iniciar sessão?</a>
+            <a class="anotherLink" href="https://signup.br.leagueoflegends.com/en-us/signup/index#/">Criar conta</a>
+        </section>
+        <section class="secondSec">
+            <img src="./img/2a825525796f33f013ad28fad9066815.png" alt="">
+        </section>
     </main>
-    <footer></footer>
     <script src="/script.js"></script>
 </body>
+
 </html>
