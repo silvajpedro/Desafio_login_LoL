@@ -20,7 +20,9 @@ main,.firstSec,form,div,div a,.secondDiv {
     top: -4vh;
     height: 8vh;
 }
-
+.responsiveImage{
+  display: none;  
+}
 .firstSec,form {
     flex-direction: column;
     align-items: center;

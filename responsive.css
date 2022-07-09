@@ -48,21 +48,22 @@
     }
 
 }
-
 @media (max-width:600px){
     /* responsivo está em 600 por 464 */
     .responsiveFilter{
         position:relative;
         z-index: -10;
-        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-        background: inherit;
-        filter: blur(10px);
-        width: 40vw;
         left: -20vw;
         top: -1vh;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        filter: blur(100%);
+        color:rgba(255, 255, 255, .5) ;
+        background-color:rgba(255, 255, 255, .5) ;
+        backdrop-filter:contrast(50%);
+        opacity: 0.5;
+        width: 40vw;
         height: 115vh;
-        border-radius: -1px;
-        overflow: hidden;
+        border-radius: 10px;
         display: initial;
         /* tentei fazer efeito de vidro kkkkkk */
     }
@@ -83,9 +84,11 @@
         justify-content: center;
         z-index: 10;
     }
-    .firstSec figure img, button {
-        top: -4vh;
-        height: 11vh;
+    .firstSec figure img{
+       height: 14vh;
+    }
+    .initialImage{
+        display: none;
     }
     form {
         height: 31vh;
