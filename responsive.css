@@ -1,3 +1,4 @@
+
 @media (max-width:1024px) {
     /* 1024 por 464 */
     .firstSec {
@@ -70,7 +71,7 @@
     body{
         background-image: url(./img/2a825525796f33f013ad28fad9066815.png);
         background-repeat: no-repeat;
-        background-size:160%;
+        background-size:cover;
         background-position: -15vw 0px;
     }
     main{
@@ -181,6 +182,9 @@
     button img {
         height: 8.5vh;
     }
+    .grown {
+        transform: scale(110%);
+    }
     .otherLink,.anotherLink {
         position: relative;
         top: 16vh;
@@ -190,5 +194,175 @@
     }
     .secondSec img {
         display: none;
+    }
+}
+@media (max-width:360px){
+    /* responsivo está em 600 por 464 */
+    .responsiveFilter{
+        position:absolute;
+        z-index: -10;
+        left: 0;
+        top: -1vh;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        color:rgba(255, 255, 255, .5) ;
+        background-color:rgba(255, 255, 255, .5) ;
+        backdrop-filter:contrast(50%);
+        opacity: 0.5;
+        width: 100%;
+        height: 100vh;
+        border-radius: 10px;
+        
+        /* tentei fazer efeito de vidro kkkkkk */
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size:400%;
+        background-position: -116vw 0px;
+
+    }
+    main{
+        position: relative;
+        z-index: 10;
+        justify-content: center;
+        width: 75vw;
+        height: 100vh;
+    }
+    .firstSec {
+        position: relative;
+        left:0vw;
+        width:100%;
+        height: 99vh;
+        justify-content: center;
+        z-index: 20;
+    }
+    .firstSec figure img{
+       height: 14vh;
+    }
+    .initialImage{
+        display: none;
+    }
+    form {
+        position: relative;
+        top: -2.5vh;
+        height: 30vh;
+        width: 100%;
+        justify-content: space-evenly;
+        padding-top: 10px;
+    }
+    form h1,.secondDiv {
+        top: -1vh;
+        font-size: 23px;
+    }
+    .passwordBox {
+        position: relative;
+        top: -2.5vh;
+        width: 85%;
+    }
+    p {
+        left: -19vw;
+        top: -1vh;
+        font-size: 21px;
+    }
+    /* chamei no javascript */
+    .passwordWeak {
+        background-color: rgb(243, 9, 9);
+        width: 32%;
+    }
+    
+    .passwordMedium {
+        background-color: rgb(255, 174, 0);
+        width: 62%;
+    }
+    
+    .passwordStrong {
+        background-color: rgb(6, 238, 33);
+        width: 98.5%;
+    }
+    /* fim */
+    form input {
+        width: 60vw;
+        height: 9vh;
+    }
+    .nameLabel,.passwordLabel {
+        top: -9vh;
+        left: -10vw;
+        font-size: 15px;
+    }
+    .passwordLabel {
+        top: -8.5vh;
+        left: -21vw;
+    }
+    div {
+        position: relative;
+        top: 1.5vh;
+        display: flex;
+        justify-content:space-around;
+        width: 100%;
+        height: 8vh;
+    }
+    div a {
+        width: 18.5vw;
+        height: 5.6vh;
+    }
+    div a:hover {
+        transform: scale(130%);
+    }
+    div a:hover img {
+        transform: rotate(360deg);
+    }
+    div a img {
+        height: 4vh;
+        transition: ease-in-out 0.8s;
+    }
+    .facebooklink {
+        background-color: #2051FF;
+    }
+    .googlelink {
+        background-color: #8A0000;
+    }
+    .applelink {
+        background-color: #000000;
+    }
+    .secondDiv {
+        top: 2vh;
+        width:45.5vw;
+        height: 3vh;
+        left: -10vw;
+        border: solid transparent;
+    }
+    .secondDiv input{
+        width: 10vw;
+        height: 2.5vh;
+    }
+    .secondDiv label {
+        font-size: 18px;
+    }
+    button {
+        top: 6vh;
+        left: -5.5vw;
+        height: 8.5vh;
+        width: 6.5vw;
+    }
+    button img {
+        height: 8.5vh;
+    }
+    .otherLink,.anotherLink {
+        position: relative;
+        top: 9vh;
+        height: 3.5vh;
+        color: #000000;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .secondSec img {
+        display: none;
+    }
+    .secondSec{
+        display: none;
+    }
+    .responsiveImage{
+        display: initial;
     }
 }

@@ -88,13 +88,14 @@ form input {
     width: 21vw;
     height: 8.5vh;
     padding-left: 10px;
+    padding-top: 10px;
     border-radius: 5px;
     border: none;
     background-color: #E8E6E6;
 }
 .nameLabel,.passwordLabel {
     position: relative;
-    top: -8vh;
+    top: -8.2vh;
     left: -6.7vw;
     font-size: 11px;
     font-family: "Inter", sans-serif;
